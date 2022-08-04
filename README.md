@@ -8,7 +8,7 @@ The conda folder has environment yaml file.
   conda env create -n {environment name} -file image_classification.yaml
 ### pip file
 I would not release the docker environment file but you can use the pytorch docker for this codes. 
-'''os
+'''c
 docker pull pytorch/pytorch:1.8.1-cuda11.1-cudnn8-devel
 '''
 And I would recommend the pytorch version 1.8.
