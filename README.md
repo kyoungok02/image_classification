@@ -5,7 +5,9 @@ This git files are image classification neural network models (VGG, Inception, R
 ## Installation
 ### conda setting
 The conda folder has environment yaml file. 
+  ```bash
   conda env create -n {environment name} -file image_classification.yaml
+  ```
 ### pip file
 I would not release the docker environment file but you can use the pytorch docker for this codes. 
 ```
